@@ -46,7 +46,7 @@ export default function PPopover({ title = "", children }: PpopoverProps) {
           <Popover.Button
             onMouseEnter={() => onMouseEnter(open)}
             onMouseLeave={() => onMouseLeave(open)}
-            className={`font-bold py-2 px-4 rounded-full border-2`}
+            className={`font-bold py-2 px-4 rounded-full border-2 focus:ring-green-500 focus:border-green-500`}
             ref={buttonRef}
           >
             {title}
